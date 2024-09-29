@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: rgb(234, 221, 221);
+  color: #555;
+}
+
+.container {
+  margin-top: 96px;
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+  height: 80%;
+}
+
+.item {
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0.3px solid black;
+}
